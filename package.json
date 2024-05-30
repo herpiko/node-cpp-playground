@@ -1,0 +1,16 @@
+{
+  "name": "binarywrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filebin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "node-gyp": "^10.1.0"
+  }
+}

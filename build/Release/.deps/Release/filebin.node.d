@@ -1,0 +1,1 @@
+cmd_Release/filebin.node := ln -f "Release/obj.target/filebin.node" "Release/filebin.node" 2>/dev/null || (rm -rf "Release/filebin.node" && cp -af "Release/obj.target/filebin.node" "Release/filebin.node")

@@ -1,0 +1,1 @@
+cmd_Release/obj.target/filebin.node := g++ -o Release/obj.target/filebin.node -shared -pthread -rdynamic -m64  -Wl,-soname=filebin.node -Wl,--start-group Release/obj.target/filebin/filebin.o -Wl,--end-group -L/mnt/c/Users/herpi/src/binarywrite/build
